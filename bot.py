@@ -56,7 +56,7 @@ async def jugar(ctx):
     iniciar_lista_personajes()
     nuevo = seleccionar_nuevo_personaje()
     if not nuevo:
-        await ctx.send("No hay personajes disponibles.")
+        await ctx.send("No hay elementos disponibles.")
         return
 
     juego["personaje"] = nuevo
@@ -66,7 +66,7 @@ async def jugar(ctx):
     pista = nuevo["pistas"][0]
     hablar(pista, nuevo.get("voz", {}))
     await asyncio.sleep(1)
-    await ctx.send("Primera pista sobre alguien relacionado con VR:")
+    await ctx.send("Primera pista sobre algo relacionado con VR:")
     await ctx.send(file=discord.File("voz.mp3"))
 
 @bot.command()
