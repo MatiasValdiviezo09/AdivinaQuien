@@ -1,20 +1,22 @@
-TIPO DE MI PROYECTO:
-Bot de Discord que implementa el juego "Adivina Quién" usando Python.
+Este es el tipo de mi proyecto:
+Bot de Discord que implementa el juego "Adivina Quién", donde los jugadores adivinan personajes relacionados a cultura general o cambio climático, usando pistas habladas mediante voz artificial
 
 Las bibliotecas que voy a utilizar:
-
-discord.py – Para crear y manejar comandos del bot en Discord.
-
-json – Para guardar los personajes y el progreso temporal del juego.
-
-random – Para seleccionar personajes aleatoriamente.
+discord.py
+pyttsx3
+json
 
 Referencias útiles:
-
-https://github.com/Rapptz/discord.py/tree/master/examples – Ejemplos básicos para entender cómo funciona un bot con comandos.
+https://discordpy.readthedocs.io/en/stable/quickstart.html
+https://gist.github.com/4Kaylum/a1e9f31c31b17386c36f017d3c59cdcc
 
 Los artículos de la guía que me ayudarán durante el desarrollo:
+Guía paso a paso para crear una aplicación de quiz educativo con JavaScript, HTML y CSS
+https://dev.to/linusmwiti21/level-up-your-skills-build-a-web-quiz-app-with-basic-js-html-css-lm5
 
-https://discordpy.readthedocs.io/en/stable/ – Documentación oficial de discord.py
+Quiz interactivo sobre cambio climático para sacar ideas de contenido
+https://www.earthday.org/the-climate-change-quiz/
 
-https://realpython.com/python-json/ – Guía práctica sobre JSON en Python
+Cómo alguien aloja un bot de Discord de forma gratuita en muchos servidores
+https://dev.to/mistval/how-i-host-a-bot-in-45000-discord-servers-for-free-5bk9
+
