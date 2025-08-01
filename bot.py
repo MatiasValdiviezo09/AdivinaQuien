@@ -12,7 +12,6 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 RUTA_PERSONAJES = "personajes.json"
 RUTA_DATOS = "data.json"
 
-
 juego = {
     "personaje": None,
     "indice_pista": 0,
@@ -67,7 +66,7 @@ async def jugar(ctx):
     pista = nuevo["pistas"][0]
     hablar(pista, nuevo.get("voz", {}))
     await asyncio.sleep(1)
-    await ctx.send("Primera pista:")
+    await ctx.send("Primera pista sobre alguien relacionado con VR:")
     await ctx.send(file=discord.File("voz.mp3"))
 
 @bot.command()
@@ -169,5 +168,4 @@ Comandos disponibles:
 async def on_ready():
     print(f"Bot conectado como {bot.user}")
 
-
-bot.run("MTM5OTQ5MzIzMDQ3ODg4NTA2NQ.GIi8Cc.1PZXbAvUGIov0SA_yqmFUkzWm1A2qQ1km5ncsY")
+bot.run("TU TOKEN AQUI")

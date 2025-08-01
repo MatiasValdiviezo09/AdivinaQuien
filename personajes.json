@@ -1,74 +1,92 @@
 [
   {
-    "nombre": "Michael Jackson",
+    "nombre": "Reciclaje",
     "pistas": [
-      "Fue un cantante, compositor y bailarín.",
-      "Lo llaman el Rey del Pop.",
-      "Su paso lunar es famoso."
+      "Es una forma de reducir la basura.",
+      "Consiste en reutilizar papel, plástico y más.",
+      "Ayuda a cuidar el medio ambiente."
     ],
     "voz": { "rate": 150 }
   },
   {
-    "nombre": "Messi",
+    "nombre": "Energía solar",
     "pistas": [
-      "Es futbolista profesional.",
-      "Ganó la Copa del Mundo con Argentina.",
-      "Ha jugado en Barcelona y PSG."
+      "Viene del sol.",
+      "Se usa para generar electricidad.",
+      "Es una fuente de energía renovable."
+    ],
+    "voz": { "rate": 155 }
+  },
+  {
+    "nombre": "Greta Thunberg",
+    "pistas": [
+      "Es una activista sueca.",
+      "Lucha contra el cambio climático.",
+      "Ha hablado en la ONU siendo adolescente."
     ],
     "voz": { "rate": 160 }
   },
   {
-    "nombre": "Bob Esponja",
+    "nombre": "Cambio climático",
     "pistas": [
-      "Vive en una piña bajo el mar.",
-      "Trabaja en el Crustáceo Cascarudo.",
-      "Su mejor amigo es una estrella de mar."
-    ],
-    "voz": { "rate": 180 }
-  },
-  {
-    "nombre": "Goku",
-    "pistas": [
-      "Es un guerrero saiyajin.",
-      "Protagoniza Dragon Ball.",
-      "Puede convertirse en Super Saiyajin."
-    ],
-    "voz": { "rate": 170 }
-  },
-  {
-    "nombre": "Spider-Man",
-    "pistas": [
-      "Es un superhéroe con poderes de araña.",
-      "Se balancea entre edificios.",
-      "Su nombre real es Peter Parker."
-    ],
-    "voz": { "rate": 160 }
-  },
-  {
-    "nombre": "Shakira",
-    "pistas": [
-      "Es cantante colombiana.",
-      "Canta y baila increíble.",
-      "Participó en el Mundial con 'Waka Waka'."
-    ],
-    "voz": { "rate": 160 }
-  },
-  {
-    "nombre": "Albert Einstein",
-    "pistas": [
-      "Fue un físico famoso.",
-      "Desarrolló la teoría de la relatividad.",
-      "Su apellido es sinónimo de genio."
+      "Es un problema global.",
+      "Hace que el clima cambie.",
+      "Es causado por la contaminación."
     ],
     "voz": { "rate": 150 }
   },
   {
-    "nombre": "Mario",
+    "nombre": "Contaminación del aire",
     "pistas": [
-      "Es un plomero de videojuegos.",
-      "Rescata a la princesa Peach.",
-      "Tiene un hermano llamado Luigi."
+      "Es causada por humo y gases.",
+      "Afecta la salud de las personas.",
+      "Sucede en muchas ciudades grandes."
     ],
-    "voz": { "rate": 165 }
+    "voz": { "rate": 145 }
+  },
+  {
+    "nombre": "Energía eólica",
+    "pistas": [
+      "Es producida por el viento.",
+      "Se genera con turbinas.",
+      "No contamina el ambiente."
+    ],
+    "voz": { "rate": 155 }
+  },
+  {
+    "nombre": "Reforestación",
+    "pistas": [
+      "Consiste en plantar árboles.",
+      "Ayuda a restaurar bosques.",
+      "Combate la desertificación."
+    ],
+    "voz": { "rate": 150 }
+  },
+  {
+    "nombre": "Huella de carbono",
+    "pistas": [
+      "Es la cantidad de CO2 que producimos.",
+      "Se puede reducir con transporte ecológico.",
+      "Se mide en toneladas."
+    ],
+    "voz": { "rate": 150 }
+  },
+  {
+    "nombre": "Calentamiento global",
+    "pistas": [
+      "Hace que suba la temperatura de la Tierra.",
+      "Es parte del cambio climático.",
+      "Provoca derretimiento de los polos."
+    ],
+    "voz": { "rate": 150 }
+  },
+  {
+    "nombre": "Efecto invernadero",
+    "pistas": [
+      "Hace que el planeta se mantenga cálido.",
+      "Se intensifica con gases como el CO2.",
+      "Es natural, pero está aumentando demasiado."
+    ],
+    "voz": { "rate": 150 }
   }
 ]
