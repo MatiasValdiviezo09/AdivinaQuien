@@ -105,7 +105,7 @@ async def respuesta(ctx, *, intento: str):
         guardar_json(RUTA_DATOS, datos)
 
         if not juego["restantes"]:
-            await ctx.send("¡Felicidades! Adivinaste todos los personajes.")
+            await ctx.send("¡Felicidades! Adivinaste todos los elementos.")
             juego["jugando"] = False
             return
 
@@ -115,7 +115,7 @@ async def respuesta(ctx, *, intento: str):
         pista = juego["personaje"]["pistas"][0]
         hablar(pista, juego["personaje"].get("voz", {}))
         await asyncio.sleep(1)
-        await ctx.send("Nuevo personaje:")
+        await ctx.send("Nuevo elemento:")
         await ctx.send(file=discord.File("voz.mp3"))
     else:
         await ctx.send("Incorrecto.")
@@ -132,7 +132,7 @@ async def skip(ctx):
         return
 
     if not juego["restantes"]:
-        await ctx.send("Ya no quedan personajes. ¡Ganaste!")
+        await ctx.send("Ya no quedan elementos. ¡Ganaste!")
         juego["jugando"] = False
         return
 
@@ -142,7 +142,7 @@ async def skip(ctx):
     pista = juego["personaje"]["pistas"][0]
     hablar(pista, juego["personaje"].get("voz", {}))
     await asyncio.sleep(1)
-    await ctx.send("Personaje saltado. Aquí tienes uno nuevo:")
+    await ctx.send("Elemento saltado. Aquí tienes uno nuevo:")
     await ctx.send(file=discord.File("voz.mp3"))
 
 @bot.command()
@@ -158,8 +158,8 @@ Comandos disponibles:
 
 !jugar — Inicia un nuevo juego  
 !pista — Muestra otra pista  
-!respuesta <nombre> — Responde quién crees que es  
-!skip — Salta al personaje actual  
+!respuesta <nombre> — Responde qué crees que es  
+!skip — Salta al elemento actual  
 !puntos — Muestra tus puntos
 """
     await ctx.send(mensaje)
