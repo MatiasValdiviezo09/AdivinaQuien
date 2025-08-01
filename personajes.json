@@ -1,0 +1,74 @@
+[
+  {
+    "nombre": "Michael Jackson",
+    "pistas": [
+      "Fue un cantante, compositor y bailarín.",
+      "Lo llaman el Rey del Pop.",
+      "Su paso lunar es famoso."
+    ],
+    "voz": { "rate": 150 }
+  },
+  {
+    "nombre": "Messi",
+    "pistas": [
+      "Es futbolista profesional.",
+      "Ganó la Copa del Mundo con Argentina.",
+      "Ha jugado en Barcelona y PSG."
+    ],
+    "voz": { "rate": 160 }
+  },
+  {
+    "nombre": "Bob Esponja",
+    "pistas": [
+      "Vive en una piña bajo el mar.",
+      "Trabaja en el Crustáceo Cascarudo.",
+      "Su mejor amigo es una estrella de mar."
+    ],
+    "voz": { "rate": 180 }
+  },
+  {
+    "nombre": "Goku",
+    "pistas": [
+      "Es un guerrero saiyajin.",
+      "Protagoniza Dragon Ball.",
+      "Puede convertirse en Super Saiyajin."
+    ],
+    "voz": { "rate": 170 }
+  },
+  {
+    "nombre": "Spider-Man",
+    "pistas": [
+      "Es un superhéroe con poderes de araña.",
+      "Se balancea entre edificios.",
+      "Su nombre real es Peter Parker."
+    ],
+    "voz": { "rate": 160 }
+  },
+  {
+    "nombre": "Shakira",
+    "pistas": [
+      "Es cantante colombiana.",
+      "Canta y baila increíble.",
+      "Participó en el Mundial con 'Waka Waka'."
+    ],
+    "voz": { "rate": 160 }
+  },
+  {
+    "nombre": "Albert Einstein",
+    "pistas": [
+      "Fue un físico famoso.",
+      "Desarrolló la teoría de la relatividad.",
+      "Su apellido es sinónimo de genio."
+    ],
+    "voz": { "rate": 150 }
+  },
+  {
+    "nombre": "Mario",
+    "pistas": [
+      "Es un plomero de videojuegos.",
+      "Rescata a la princesa Peach.",
+      "Tiene un hermano llamado Luigi."
+    ],
+    "voz": { "rate": 165 }
+  }
+]

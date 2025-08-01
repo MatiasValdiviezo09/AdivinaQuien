@@ -1,0 +1,38 @@
+Adivina Quién (bot de Discord)
+
+Este es un bot que hice como proyecto final. Funciona en Discord y te deja jugar a un juego tipo “Adivina Quién” usando voz. El bot te va dando pistas habladas sobre un personaje famoso y vos tenés que adivinar quién es.
+
+
+¿Cómo se juega?
+
+- Escribe `!jugar` y el bot empieza con un personaje al azar.
+- Te va a decir una pista usando voz.
+- Si quieres otra pista, escribe `!pista`.
+- Cuando creas saber quién es, pon `!respuesta nombre`.
+- Si aciertas, sumas un punto.
+- Puedes ver tus puntos con `!puntos`.
+- Si quieres pasar al siguiente personaje, usa `!skip`.
+
+
+
+¿Cómo lo hice?
+
+Usé Python y algunas librerías como `discord.py` para hacer que funcione en Discord, y `pyttsx3` para que el bot hable usando voz generada. Guardé los personajes y pistas en un archivo `.json`, y también guardo los puntos de cada persona que juega.
+
+
+
+Archivos importantes
+
+- `bot.py`: el archivo principal donde está todo el código.
+- `personajes.json`: donde están todos los personajes y sus pistas.
+- `data.json`: donde se guardan los puntos de los jugadores.
+
+
+
+Qué se necesita
+
+- Tener Python instalado (yo usé Python 3.12).
+- Instalar los paquetes que usa el bot con este comando:
+
+bash
+ pip install discord.py pyttsx3
